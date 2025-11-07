@@ -7,8 +7,8 @@
 
 ## 👥 **Equipe**
 
-**Nome da equipe:**  Nome da sua equipe aqui  
-**Nome do jogo:**  Nome do Jogo aqui  
+**Nome da equipe:**  Arcádia  
+**Nome do jogo:**  Ismália  
 **Integrante:**  Kelwin Karan Leal Silva  
 **Email:**  <kkls@cesar.school>
 
@@ -21,7 +21,7 @@ Estudo sobre o uso da Unity como game engine para:
 - Construção de fases 2D;
 - Entender como animações são usadas e implementadas em um jogo;
 - Criação de scripts a partir do template da unity;
-- Como funciona a implementação de assets em um jogo
+- Como funciona a implementação e organização de assets em um jogo
 
 ---
 
