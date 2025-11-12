@@ -148,6 +148,12 @@ O que for imagem ou vídeo, coloque no Drive, deixe público e compartilhe o lin
 > - Link para o repositório ou protótipo
 > - GIFs mostrando o funcionamento
 
+[Certificado: Formação Desenvolva jogos com Unity](https://cursos.alura.com.br/degree/certificate/abbd70fb-9037-4258-b57c-7d614b5d9bfc?lang=pt_BR)
+
+[Kev web build](https://play.unity.com/en/games/6b5f9a99-41de-4cb5-9da5-c98bfb84a1f2/kev-web-build)
+
+[A Vingança de Zorgon 2D](https://kevkaran.itch.io/a-vinganca-de-zorgon-2d)
+
 ~~~markdown
 ![Exemplo de Tilemap](link-da-imagem-ou-gif)
 ~~~
