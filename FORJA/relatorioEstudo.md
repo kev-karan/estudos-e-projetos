@@ -16,7 +16,7 @@
 
 ## 🎯 **Tema do Estudo**
 
-Nesse estudo, utilizarei a formação "[Desenvolvendo Jogos 2D com Unity](https://www.alura.com.br/formacao-desenvolvendo-jogos-2d-unity)" da plataforma Alura, nessa formação vou aprender:
+Nesse estudo, utilizarei a formação "[Desenvolvendo Jogos 2D com Unity](https://www.alura.com.br/formacao-desenvolvendo-jogos-2d-unity)" da plataforma Alura. Nessa formação, vou aprender:
 
 - A criar jogos 2D completos e funcionais;
 
@@ -51,7 +51,7 @@ Podem ser resumos, insights, anotações ou observações práticas.
 
     - Criação e organização de GameObjects: compreender a hierarquia da cena e a importância de estruturar objetos logicamente.
 
-    - Prefabs: criação de objetos pré-fabricados para padronizar e agilizar a produção (inimigos, coletáveis, chefões etc).
+    - Prefabs: criação de objetos pré-fabricados para padronizar e agilizar a produção (inimigos, coletáveis, chefões etc.).
 
     - Importação e gerenciamento de assets: manter uma estrutura limpa de pastas, separando scripts, sprites, animações e sons.
 
@@ -183,11 +183,11 @@ Isso ajuda a FORJA a direcionar mentorias futuras.
 Liste o que você pretende estudar ou praticar a seguir.  
 Isso mostra intenção de continuidade e evolução.
 
-- Aprender fundamentos e práticas em programação Orientada a Objetos em C#.
+- Aprender fundamentos e práticas em programação orientada a objetos em C#.
 
 - Estudar Level Design: ritmo, progressão, dificuldade e posicionamento de itens e inimigos.
 
-- Como encontrar boas ideias para Jogos, mecanicas, Loops de gameplay, etc.
+- Como encontrar boas ideias para jogos, mecânicas, loops de gameplay, etc.
 
 - Como fazer prototipagem de forma rápida e eficiente para testar ideias.
 
