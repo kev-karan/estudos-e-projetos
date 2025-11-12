@@ -16,22 +16,27 @@
 
 ## 🎯 **Tema do Estudo**
 
-Estudo sobre o uso da Unity como game engine para:
+Nesse estudo utilizarei a Formação "[Desenvolvendo Jogos 2D com Unity](https://www.alura.com.br/formacao-desenvolvendo-jogos-2d-unity)" da Plataforma Alura, nessa formação vou aprender:
 
-- Construção de fases 2D;
-- Entender como animações são usadas e implementadas em um jogo;
-- Criação de scripts a partir do template da unity;
-- Como funciona a implementação e organização de assets em um jogo
+- A criar jogos 2D completos e funcionais;
+
+- Entender como aplicar física, áudio e animações dentro de um jogo;
+
+- Aprender boas práticas de programação e padrões de projetos utilizados na área;
+
+- Desenvolver habilidades práticas na Unity, criando um jogo desde a implementação das primeiras mecânicas até o polimento final.
 
 ---
 
 ## 📚 **Materiais Utilizados**
 
-Liste os **materiais de estudo consultados** — cursos, vídeos, artigos, tutoriais, fóruns, etc.
+- [Get Started with Unity: In-Editor Tutorial](https://learn.unity.com/tutorial/get-started-with-unity-in-editor-tutorial) — Unity Learn  
 
-- [Título do material 1](link) — Autor / Canal / Plataforma  
-- [Título do material 2](link) — Autor / Canal / Plataforma  
-- [Título do material 3](link) — Autor / Canal / Plataforma  
+- [C# language documentation](https://learn.microsoft.com/en-us/dotnet/csharp/) — Microsoft
+
+- [Unity: criando um jogo metroidvania 2D](https://www.alura.com.br/curso-online-unity-criando-jogo-metroidvania-2d) — Alura  
+
+- [Unity: criando menus, coletáveis e batalha final em um jogo 2D](https://www.alura.com.br/curso-online-unity-criando-menus-coletaveis-batalha-final-jogo-2d) — Alura  
 
 > Dica: inclua links sempre que possível.
 
@@ -42,11 +47,93 @@ Liste os **materiais de estudo consultados** — cursos, vídeos, artigos, tutor
 Liste os **tópicos mais relevantes** ou **conceitos que você aprendeu** durante o estudo.  
 Podem ser resumos, insights, anotações ou observações práticas.
 
-~~~markdown
-- Como usar o sistema de partículas no Unity;
-- Diferença entre SpriteRenderer e Image (UI);
-- Como criar um tilemap e pintar o cenário.
-~~~
+1. Estrutura e Organização do Projeto
+
+    - Criação e organização de GameObjects: compreender a hierarquia da cena e a importância de estruturar objetos logicamente.
+
+    - Prefabs: criação de objetos pré-fabricados para padronizar e agilizar a produção (inimigos, coletáveis, chefões etc).
+
+    - Importação e gerenciamento de assets: manter uma estrutura limpa de pastas, separando scripts, sprites, animações e sons.
+
+2. Sistema de Input e Controle do Jogador
+
+    - Configuração do novo Input System: mapeamento profissional e flexível dos controles.
+
+    - Movimentação e física: uso de Rigidbody2D e Time.deltaTime para movimento fluido e frame independent.
+
+    - Pulo e verificação de chão: lógica de detecção de colisão e controle de estados de movimento.
+
+    - Obs: Time.deltaTime garante que o personagem se mova com a mesma velocidade em qualquer máquina, essencial para desempenho consistente.
+
+3. Gerenciamento do Jogo
+
+    - Game Manager: script central para gerenciar lógica global (pontuação, estados de jogo, vitória, derrota).
+
+    - Core Game Loop: ciclo principal do jogo, controlando início, jogo ativo, vitória e reinício.
+
+    - FindObjectsOfType: usado para encontrar e manipular todos os objetos de um tipo específico (como coletáveis).
+
+4. Inimigos e IA
+
+    - Criação e controle de inimigos: movimentação, detecção do jogador e comportamento reativo.
+
+    - Uso de RequireComponent: garante que scripts essenciais (como Rigidbody2D e Collider2D) estejam presentes.
+
+    - Máquina de estados (State Machine): definição de comportamentos e transições, especialmente para o chefão.
+
+5. Combate e Interações
+
+    - Sistema de ataque e dano: implementação da troca de dano entre player e inimigos.
+
+    - Script de vida reutilizável: componente genérico para qualquer entidade que possa sofrer dano.
+
+    - Partículas e efeitos visuais: sistema de partículas ativado via script para dar feedback ao jogador.
+
+    Obs: separar scripts como vida e dano permite reutilização e consistência em diferentes personagens e objetos.
+
+6. Arte, Animação e Tilemap
+
+    - Animator Controller: controle de estados de animação (idle, andar, ataque, morte).
+
+    - Transições de animações: sincronização suave entre estados.
+
+    - Criação de mapas com Tilemap: construção modular e eficiente de cenários 2D.
+
+    - Tile Colliders e Physics Materials: ajustes de colisão para fluidez na movimentação.
+
+7. Áudio e Feedback Sonoro
+
+    - Sistema de som escalável: uso de Audio Mixer e grupos de som.
+
+    - Sons de ambiente (BGM) e efeitos sonoros (SFX): camadas sonoras para imersão.
+
+    - Exposição de parâmetros de áudio via script: controle dinâmico de volumes e efeitos.
+
+8. Interface e Fluxo do Jogo
+
+    - Criação de menus e HUD com Canvas: telas de início, opções, vitória e derrota.
+
+    - Botões e eventos UI: manipulação de botões com eventos profissionais.
+
+    - Exibição dinâmica de coletáveis: atualização da interface conforme o progresso do jogador.
+
+    - Tela de créditos e retorno ao menu: fechamento completo do ciclo de gameplay.
+
+9. Câmera e Cinemática
+
+    - Cinemachine: câmera dinâmica que segue o jogador de forma fluida.
+
+    - Configuração de limites e suavização de movimento — evita cortes bruscos e mantém a imersão.
+
+10. Otimização e Boas Práticas
+
+    - Reutilização de assets e scripts — reduz redundâncias e melhora desempenho.
+
+    - Correção de colisões do Tilemap — solução de problemas comuns em plataformas 2D.
+
+    - Uso de Physics Material 2D — evita que o personagem “grude” em paredes.
+
+    - Eventos e triggers otimizados — execução de comportamentos apenas quando necessário.
 
 ---
 
