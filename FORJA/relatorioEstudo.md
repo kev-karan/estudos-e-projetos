@@ -16,7 +16,7 @@
 
 ## 🎯 **Tema do Estudo**
 
-Nesse estudo utilizarei a Formação "[Desenvolvendo Jogos 2D com Unity](https://www.alura.com.br/formacao-desenvolvendo-jogos-2d-unity)" da Plataforma Alura, nessa formação vou aprender:
+Nesse estudo, utilizarei a formação "[Desenvolvendo Jogos 2D com Unity](https://www.alura.com.br/formacao-desenvolvendo-jogos-2d-unity)" da plataforma Alura, nessa formação vou aprender:
 
 - A criar jogos 2D completos e funcionais;
 
@@ -148,11 +148,11 @@ O que for imagem ou vídeo, coloque no Drive, deixe público e compartilhe o lin
 > - Link para o repositório ou protótipo
 > - GIFs mostrando o funcionamento
 
-[Certificado: Formação Desenvolva jogos com Unity](https://cursos.alura.com.br/degree/certificate/abbd70fb-9037-4258-b57c-7d614b5d9bfc?lang=pt_BR)
+[![Certificado: Formação Desenvolva jogos com Unity](https://github.com/kev-karan/estudos-e-projetos/blob/main/FORJA/Kelwin%20Karan%20Leal%20Silva%20-%20Forma%C3%A7%C3%A3o%20Desenvolva%20jogos%20com%20Unity%20-%20Alura_page-0001.jpg?raw=true)](https://cursos.alura.com.br/degree/certificate/abbd70fb-9037-4258-b57c-7d614b5d9bfc?lang=pt_BR)
 
-[Kev web build](https://play.unity.com/en/games/6b5f9a99-41de-4cb5-9da5-c98bfb84a1f2/kev-web-build)
+[Jogo: Kev web build](https://play.unity.com/en/games/6b5f9a99-41de-4cb5-9da5-c98bfb84a1f2/kev-web-build)
 
-[A Vingança de Zorgon 2D](https://kevkaran.itch.io/a-vinganca-de-zorgon-2d)
+[Jogo: A Vingança de Zorgon 2D](https://kevkaran.itch.io/a-vinganca-de-zorgon-2d)
 
 ~~~markdown
 ![Exemplo de Tilemap](link-da-imagem-ou-gif)
@@ -165,6 +165,12 @@ O que for imagem ou vídeo, coloque no Drive, deixe público e compartilhe o lin
 Registre dúvidas ou tópicos que ainda geram dificuldade.  
 Isso ajuda a FORJA a direcionar mentorias futuras.
 
+- Diferença entre Awake(), Start() e Update() e em que casos cada um é ideal.
+
+- Como organizar prefabs e assets para projetos maiores.
+
+- Persistência de dados entre cenas (pontuação, progresso, configurações).
+
 ~~~markdown
 - Como otimizar o uso de colisores em Tilemaps grandes?
 - É possível trocar o Tile Palette em tempo de execução?
@@ -176,6 +182,14 @@ Isso ajuda a FORJA a direcionar mentorias futuras.
 
 Liste o que você pretende estudar ou praticar a seguir.  
 Isso mostra intenção de continuidade e evolução.
+
+- Aprender fundamentos e práticas em programação Orientada a Objetos em C#.
+
+- Estudar Level Design: ritmo, progressão, dificuldade e posicionamento de itens e inimigos.
+
+- Como encontrar boas ideias para Jogos, mecanicas, Loops de gameplay, etc.
+
+- Como fazer prototipagem de forma rápida e eficiente para testar ideias.
 
 ~~~markdown
 - Explorar iluminação 2D na Unity;
