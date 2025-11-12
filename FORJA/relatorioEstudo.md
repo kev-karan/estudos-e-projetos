@@ -1,8 +1,5 @@
 # **Relatório de Estudos | FORJA Select 25.2**
 
-> Este relatório deve ser preenchido por cada equipe para comprovar o aprendizado realizado durante a **Etapa 2 - Estudo** do processo seletivo.  
-> O objetivo é registrar o que foi estudado, o que foi aprendido e como o conteúdo pode contribuir para o desenvolvimento do jogo.
-
 ---
 
 ## 👥 **Equipe**
@@ -38,8 +35,6 @@ Nesse estudo, utilizarei a formação "[Desenvolvendo Jogos 2D com Unity](https:
 
 - [Unity: criando menus, coletáveis e batalha final em um jogo 2D](https://www.alura.com.br/curso-online-unity-criando-menus-coletaveis-batalha-final-jogo-2d) — Alura  
 
-> Dica: inclua links sempre que possível.
-
 ---
 
 ## 💡 **Principais Aprendizados**
@@ -56,8 +51,6 @@ Podem ser resumos, insights, anotações ou observações práticas.
     - Importação e gerenciamento de assets: manter uma estrutura limpa de pastas, separando scripts, sprites, animações e sons.
 
 2. Sistema de Input e Controle do Jogador
-
-    - Configuração do novo Input System: mapeamento profissional e flexível dos controles.
 
     - Movimentação e física: uso de Rigidbody2D e Time.deltaTime para movimento fluido e frame independent.
 
@@ -123,30 +116,21 @@ Podem ser resumos, insights, anotações ou observações práticas.
 
     - Cinemachine: câmera dinâmica que segue o jogador de forma fluida.
 
-    - Configuração de limites e suavização de movimento — evita cortes bruscos e mantém a imersão.
+    - Configuração de limites e suavização de movimento: evita cortes bruscos e mantém a imersão.
 
 10. Otimização e Boas Práticas
 
-    - Reutilização de assets e scripts — reduz redundâncias e melhora desempenho.
+    - Reutilização de assets e scripts: reduz redundâncias e melhora desempenho.
 
-    - Correção de colisões do Tilemap — solução de problemas comuns em plataformas 2D.
+    - Correção de colisões do Tilemap: solução de problemas comuns em plataformas 2D.
 
-    - Uso de Physics Material 2D — evita que o personagem “grude” em paredes.
+    - Uso de Physics Material 2D: evita que o personagem “grude” em paredes.
 
-    - Eventos e triggers otimizados — execução de comportamentos apenas quando necessário.
+    - Eventos e triggers otimizados: execução de comportamentos apenas quando necessário.
 
 ---
 
 ## 🧩 **Amostras ou Evidências do Estudo**
-
-Inclua **prints, links, trechos de código, protótipos ou arquivos** que demonstrem o aprendizado.  
-O que for imagem ou vídeo, coloque no Drive, deixe público e compartilhe o link aqui.
-
-> Exemplo:
->
-> - Capturas de tela do projeto em execução
-> - Link para o repositório ou protótipo
-> - GIFs mostrando o funcionamento
 
 [![Certificado: Formação Desenvolva jogos com Unity](https://github.com/kev-karan/estudos-e-projetos/blob/main/FORJA/Kelwin%20Karan%20Leal%20Silva%20-%20Forma%C3%A7%C3%A3o%20Desenvolva%20jogos%20com%20Unity%20-%20Alura_page-0001.jpg?raw=true)](https://cursos.alura.com.br/degree/certificate/abbd70fb-9037-4258-b57c-7d614b5d9bfc?lang=pt_BR)
 
@@ -154,34 +138,19 @@ O que for imagem ou vídeo, coloque no Drive, deixe público e compartilhe o lin
 
 [Jogo: A Vingança de Zorgon 2D](https://kevkaran.itch.io/a-vinganca-de-zorgon-2d)
 
-~~~markdown
-![Exemplo de Tilemap](link-da-imagem-ou-gif)
-~~~
-
 ---
 
 ## ❓ **Dúvidas e Pontos a Revisar**
-
-Registre dúvidas ou tópicos que ainda geram dificuldade.  
-Isso ajuda a FORJA a direcionar mentorias futuras.
 
 - Diferença entre Awake(), Start() e Update() e em que casos cada um é ideal.
 
 - Como organizar prefabs e assets para projetos maiores.
 
 - Persistência de dados entre cenas (pontuação, progresso, configurações).
-
-~~~markdown
-- Como otimizar o uso de colisores em Tilemaps grandes?
-- É possível trocar o Tile Palette em tempo de execução?
-~~~
-
+  
 ---
 
 ## 🔁 **Próximos Passos**
-
-Liste o que você pretende estudar ou praticar a seguir.  
-Isso mostra intenção de continuidade e evolução.
 
 - Aprender fundamentos e práticas em programação orientada a objetos em C#.
 
@@ -190,9 +159,3 @@ Isso mostra intenção de continuidade e evolução.
 - Como encontrar boas ideias para jogos, mecânicas, loops de gameplay, etc.
 
 - Como fazer prototipagem de forma rápida e eficiente para testar ideias.
-
-~~~markdown
-- Explorar iluminação 2D na Unity;
-- Criar variações de tiles animados;
-- Estudar sobre colisões compostas.
-~~~
