@@ -8,10 +8,12 @@ int main()
     printf("* Bem vindo ao nosso jogo de adivinhação *\n");
     printf("******************************************\n");
 
-    int numerosecreto = 42;
+    int numeroSecreto = 42;
 
     int chute;
     int tentativas = 1;
+
+    int pontos = 1000;
 
     while (1)
     {
@@ -28,8 +30,8 @@ int main()
             continue;
         }
 
-        int acertou = (chute == numerosecreto);
-        int maior = chute > numerosecreto;
+        int acertou = (chute == numeroSecreto);
+        int maior = chute > numeroSecreto;
 
         if (acertou)
         {
@@ -50,8 +52,12 @@ int main()
         }
 
         tentativas++;
+
+        int pontosPerdidos = (chute - numeroSecreto) / 2;
+        pontos = pontos - pontosPerdidos;
     }
 
     printf("Fim de jogo!\n");
     printf("Você acertou em %d tentativas!", tentativas);
+    printf("Total de pontos: %d\n", pontos);
 }
