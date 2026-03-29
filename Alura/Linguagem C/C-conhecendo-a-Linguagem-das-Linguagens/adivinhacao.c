@@ -63,12 +63,10 @@ int main()
         {
             break;
         }
-
         else if (maior)
         {
             printf("Seu chute foi maior que o número secreto\n");
         }
-
         else
         {
             printf("Seu chute foi menor que o número secreto\n");
