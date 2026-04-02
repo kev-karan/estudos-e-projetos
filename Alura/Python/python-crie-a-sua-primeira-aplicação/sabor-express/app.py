@@ -1,4 +1,4 @@
-import os
+import subprocess
 
 
 def exibir_nome_do_programa():
@@ -19,7 +19,7 @@ def opcao_invalida():
 
 
 def finalizar_app():
-    os.system("cls")
+    subprocess.run(["cls"], shell=True)
     print("Encerrando o programa\n")
 
 
@@ -43,7 +43,7 @@ def escolher_opcoes():
 
 
 def main():
-    os.system("cls")
+    subprocess.run(["cls"], shell=True)
     exibir_nome_do_programa()
     exibir_opcoes()
     escolher_opcoes()
