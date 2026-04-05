@@ -31,11 +31,29 @@ int jaChutou(int tentativas, char* chutes, char letra)
     return achou;
 }
 
+void desenhaForca(char* palavraSecreta, int tentativas, char* chutes)
+{
+    for (int i = 0; i < strlen(palavraSecreta); i++) {
+
+        int achou = jaChutou(tentativas, chutes, palavraSecreta[i]);
+
+        if (achou) {
+            printf("%c ", palavraSecreta[i]);
+        } else {
+            printf("_ ");
+        }
+    }
+    printf("\n");
+}
+
+void escolhePalavra(char* palavraSecreta)
+{
+    sprintf(palavraSecreta, "MELANCIA");
+}
+
 int main()
 {
     char palavraSecreta[20];
-
-    sprintf(palavraSecreta, "MELANCIA");
 
     int acertou = 0;
     int enforcou = 0;
@@ -43,21 +61,12 @@ int main()
     char chutes[26];
     int tentativas = 0;
 
+    escolhePalavra(palavraSecreta);
     abertura();
 
     do {
-        for (int i = 0; i < strlen(palavraSecreta); i++) {
 
-            int achou = jaChutou(tentativas, chutes, palavraSecreta[i]);
-
-            if (achou) {
-                printf("%c ", palavraSecreta[i]);
-            } else {
-                printf("_ ");
-            }
-        }
-        printf("\n");
-
+        desenhaForca(palavraSecreta, tentativas, chutes);
         chuta(chutes, &tentativas);
 
     } while (!acertou && !enforcou);
