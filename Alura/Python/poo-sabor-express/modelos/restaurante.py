@@ -2,13 +2,13 @@ class Restaurante:
     restaurantes = []
 
     def __init__(self, nome, categoria):
-        self.nome = nome
-        self.categoria = categoria
+        self._nome = nome.title()
+        self._categoria = categoria.upper()
         self._ativo = False
         Restaurante.restaurantes.append(self)
 
     def __str__(self):
-        return f"{self.nome} | {self.categoria}"
+        return f"{self._nome} | {self._categoria}"
 
     def listar_restaurantes():
         print(
